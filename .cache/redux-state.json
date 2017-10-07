@@ -577,12 +577,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-07T23:10:11.120Z",
+      "buildTime": "2017-10-07T23:38:41.681Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "43814d71ca1456c83a1978dade003a46",
+        "contentDigest": "1796e30e2c85171a36be0bec3bd015b5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -605,10 +605,10 @@
       "extension": "md",
       "size": 294,
       "prettySize": "294 B",
-      "modifiedTime": "2017-10-07T20:22:17.000Z",
-      "accessTime": "2017-10-07T20:22:17.000Z",
-      "changeTime": "2017-10-07T20:22:17.000Z",
-      "birthTime": "2017-10-07T20:22:17.000Z",
+      "modifiedTime": "2017-10-07T23:03:43.000Z",
+      "accessTime": "2017-10-07T23:21:48.000Z",
+      "changeTime": "2017-10-07T23:03:43.000Z",
+      "birthTime": "2017-10-07T23:03:43.000Z",
       "root": "/",
       "dir": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post",
       "base": "index.md",
@@ -621,12 +621,12 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8791215,
+      "ino": 8820720,
       "blocks": 8,
-      "atime": "2017-10-07T20:22:17.000Z",
-      "mtime": "2017-10-07T20:22:17.000Z",
-      "ctime": "2017-10-07T20:22:17.000Z",
-      "birthtime": "2017-10-07T20:22:17.000Z"
+      "atime": "2017-10-07T23:21:48.000Z",
+      "mtime": "2017-10-07T23:03:43.000Z",
+      "ctime": "2017-10-07T23:03:43.000Z",
+      "birthtime": "2017-10-07T23:03:43.000Z"
     },
     "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark",
@@ -655,7 +655,7 @@
       "layout": "index",
       "jsonName": "first-post.json",
       "internalComponentName": "ComponentFirstPost",
-      "updatedAt": 1507417814021,
+      "updatedAt": 1507419523902,
       "context": {},
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -665,7 +665,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "80089cec0bb0ae7debd18d12023cfb89",
+        "contentDigest": "d91085ef970b3bfc10489bdc02cfc8bc",
         "owner": "internal-data-bridge"
       }
     },
@@ -676,7 +676,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1507417814060,
+      "updatedAt": 1507419523940,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -686,7 +686,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75f32de39d7d7961c483e7b18f3272a7",
+        "contentDigest": "2c22967d4990c4691dde58d8e607a608",
         "owner": "internal-data-bridge"
       }
     },
@@ -697,7 +697,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507417814061,
+      "updatedAt": 1507419523941,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -707,7 +707,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "526e9aa8553e12bc4909aa3c0d883548",
+        "contentDigest": "1c343cc7578e965dd4b9572b3968b9ea",
         "owner": "internal-data-bridge"
       }
     },
@@ -718,7 +718,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507417814065,
+      "updatedAt": 1507419523944,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -728,7 +728,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c1377b6aebd8eab50604875369c4c2ae",
+        "contentDigest": "487908be81aaeb6a43ed8d3ecb0b92a9",
         "owner": "internal-data-bridge"
       }
     }
@@ -744,11 +744,11 @@
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "MarkdownRemark": [
         "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
