@@ -5,17 +5,17 @@
             "edges": [
                 {
                     "node": {
+                        "path": "/first-post"
+                    }
+                },
+                {
+                    "node": {
                         "path": "/404/"
                     }
                 },
                 {
                     "node": {
                         "path": "/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/page-2/"
                     }
                 },
                 {

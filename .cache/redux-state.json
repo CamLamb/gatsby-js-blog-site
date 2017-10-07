@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1507391784203,
+      "updatedAt": 1507395870868,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2d98688b1b70ef0e73fd010b32138d37",
+        "contentDigest": "99288752a64866018f672f71d114917e",
         "owner": "internal-data-bridge"
       }
     },
@@ -262,24 +262,280 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bdcf26cbd559be83592cb14ffaf2a316",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.2",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/cameronlamb/shared/gatsby-js/src/articles",
+        "name": "articles"
+      },
+      "pluginFilepath": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.2",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b744694907fffb088dd0306b93c695e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/cameronlamb/shared/gatsby-js/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8af219cf869f40c7a85bf22a118f4250",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/cameronlamb/shared/gatsby-js",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "4492b3667245f2e293a43dee99bc333b",
+      "version": "07bd08a33a8157fffd5d33c34da296f7",
       "pluginOptions": {
         "plugins": []
       },
       "pluginFilepath": "/Users/cameronlamb/shared/gatsby-js",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "jafacakes-developer-blog",
+        "description": "A developer blog.",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Cameron Lamb <me@jafacak.es>",
         "license": "MIT",
         "dependencies": [
           {
@@ -293,6 +549,18 @@
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^1.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.2"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.15"
           }
         ],
         "devDependencies": [
@@ -308,26 +576,106 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b790bdfc81fbfa261bc6ea48273da22f",
+        "contentDigest": "967bbdc64f12ed1771ade2bc6571d3ef",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Jafackes Developmer blog"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-07T15:56:22.048Z",
+      "buildTime": "2017-10-07T17:04:28.462Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "01371da7aae14f302970db61e23b7489",
+        "contentDigest": "d62aaf2cf9e7d74ffcb52e578e112805",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file": {
+      "id": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file",
+      "children": [
+        "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "75bad4119a19a01bdffef6d9ca4f537b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "articles",
+      "absolutePath": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md",
+      "relativePath": "2017-10-07-first-post/index.md",
+      "extension": "md",
+      "size": 92,
+      "prettySize": "92 B",
+      "modifiedTime": "2017-10-07T16:32:59.000Z",
+      "accessTime": "2017-10-07T17:03:50.000Z",
+      "changeTime": "2017-10-07T16:32:59.000Z",
+      "birthTime": "2017-10-07T16:32:59.000Z",
+      "root": "/",
+      "dir": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8780633,
+      "blocks": 8,
+      "atime": "2017-10-07T17:03:50.000Z",
+      "mtime": "2017-10-07T16:32:59.000Z",
+      "ctime": "2017-10-07T16:32:59.000Z",
+      "birthtime": "2017-10-07T16:32:59.000Z"
+    },
+    "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/first-post'\ntitle: 'First blog post'\n---\n# Hello\nThank you for visiting my blog.",
+        "contentDigest": "44b6b8605160cbffd22cd15c20e499e9",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "First blog post",
+        "path": "/first-post",
+        "_PARENT": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file",
+        "parent": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md"
+    },
+    "SitePage /first-post": {
+      "path": "/first-post",
+      "component": "/Users/cameronlamb/shared/gatsby-js/src/templates/article.js",
+      "componentChunkName": "component---src-templates-article-js",
+      "layout": "index",
+      "jsonName": "first-post.json",
+      "internalComponentName": "ComponentFirstPost",
+      "updatedAt": 1507395870899,
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/cameronlamb/shared/gatsby-js/src/templates/article.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8c9c93eb83a95056a60762440f972529",
         "owner": "internal-data-bridge"
       }
     },
@@ -338,7 +686,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1507391784239,
+      "updatedAt": 1507395870908,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -348,7 +696,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4832594b53133b4e9c161d88c59fd070",
+        "contentDigest": "f05b52a94340412fb215ce9952e2247d",
         "owner": "internal-data-bridge"
       }
     },
@@ -359,7 +707,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507391784242,
+      "updatedAt": 1507395870910,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -369,28 +717,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d7bb7c6908e2ec1ac73b50e8d72fd16",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "path": "/page-2/",
-      "component": "/Users/cameronlamb/shared/gatsby-js/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "updatedAt": 1507391784243,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/cameronlamb/shared/gatsby-js/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5583566ee7f43f26e51f3245dab72f52",
+        "contentDigest": "b121c173c2220345a5f83448990cfe20",
         "owner": "internal-data-bridge"
       }
     },
@@ -401,7 +728,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507391784251,
+      "updatedAt": 1507395870918,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -411,14 +738,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3bd84f626d1add78bfaa943fda6ce37b",
+        "contentDigest": "935f6307ff7b8fb49a263bdd77c76929",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9fbbc8252b615496ba48b0bdf882c064"
+    "PLUGINS_HASH": "8a6958df9cdf7f868b0daa57146d9dda"
   },
   "componentDataDependencies": {
     "nodes": {},

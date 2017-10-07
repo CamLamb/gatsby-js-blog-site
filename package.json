@@ -1,12 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jafacakes-developer-blog",
+  "description": "A developer blog.",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Cameron Lamb <me@jafacak.es>",
   "dependencies": {
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-sass": "^1.0.12",
+    "gatsby-source-filesystem": "^1.5.2",
+    "gatsby-transformer-remark": "^1.7.15"
   },
   "keywords": [
     "gatsby"
