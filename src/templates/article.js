@@ -6,14 +6,13 @@ export default function Template({data}) {
   return (
       <article>
           <h1>{post.frontmatter.title}</h1>
-          <section>
-          </section>
+          <section dangerouslySetInnerHTML={{__html: post.html}}/>
       </article>
   )
 }
-export const postQuery = graphql(`
+export const postQuery = graphql`
   query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: eq: $path }) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         path
@@ -21,4 +20,4 @@ export const postQuery = graphql(`
       }
     }
   }
-`);
+`
