@@ -3,15 +3,12 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/cameronlamb/shared/gatsby-js/.cache/dev-404-page.js")),
   "component---src-templates-article-js": preferDefault(require("/Users/cameronlamb/shared/gatsby-js/src/templates/article.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/cameronlamb/shared/gatsby-js/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/cameronlamb/shared/gatsby-js/src/pages/index.js"))
 }
 
 exports.json = {
-  "layout-index.json": require("/Users/cameronlamb/shared/gatsby-js/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/cameronlamb/shared/gatsby-js/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/cameronlamb/shared/gatsby-js/.cache/json/layout-index.json"),
   "first-post.json": require("/Users/cameronlamb/shared/gatsby-js/.cache/json/first-post.json"),
   "layout-index.json": require("/Users/cameronlamb/shared/gatsby-js/.cache/json/layout-index.json"),

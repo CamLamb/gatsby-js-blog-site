@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/cameronlamb/shared/gatsby-js/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1507417410335,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/cameronlamb/shared/gatsby-js/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e6b7286a9d53749fbd20fa7967e438f8",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -585,14 +575,14 @@
       "siteMetadata": {
         "title": "Jafackes Developmer blog"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2017-10-07T20:33:47.777Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-10-07T23:10:11.120Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d2969a79fb2f37d76b2b0edd40ccdc3b",
+        "contentDigest": "43814d71ca1456c83a1978dade003a46",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -665,7 +655,7 @@
       "layout": "index",
       "jsonName": "first-post.json",
       "internalComponentName": "ComponentFirstPost",
-      "updatedAt": 1507417410368,
+      "updatedAt": 1507417814021,
       "context": {},
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -675,7 +665,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a707cdc12252c6875880f8e03e3ab587",
+        "contentDigest": "80089cec0bb0ae7debd18d12023cfb89",
         "owner": "internal-data-bridge"
       }
     },
@@ -686,7 +676,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1507408431098,
+      "updatedAt": 1507417814060,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -696,7 +686,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2c606ed05f83b4dc4a83516cc0b1fce2",
+        "contentDigest": "75f32de39d7d7961c483e7b18f3272a7",
         "owner": "internal-data-bridge"
       }
     },
@@ -707,7 +697,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507408431105,
+      "updatedAt": 1507417814061,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -717,7 +707,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ebdca52438468ce956804bb0e0aca304",
+        "contentDigest": "526e9aa8553e12bc4909aa3c0d883548",
         "owner": "internal-data-bridge"
       }
     },
@@ -728,7 +718,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507408431108,
+      "updatedAt": 1507417814065,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -738,7 +728,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6d7f8dbb4bb34cf893f160f003c4d5fc",
+        "contentDigest": "c1377b6aebd8eab50604875369c4c2ae",
         "owner": "internal-data-bridge"
       }
     }
