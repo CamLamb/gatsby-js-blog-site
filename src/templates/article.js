@@ -5,7 +5,10 @@ export default function Template({data}) {
   const {markdownRemark: post} = data;
   return (
       <article>
-          <h1>{post.frontmatter.title}</h1>
+          <h1 className='text-big'>{post.frontmatter.title}</h1>
+          <ul className='badges-list'>
+              <li className='badges-list-item badge-dark'>{post.frontmatter.date}</li>
+          </ul>
           <section dangerouslySetInnerHTML={{__html: post.html}}/>
       </article>
   )
@@ -17,6 +20,8 @@ export const postQuery = graphql`
       frontmatter {
         path
         title
+        date
+        summary
       }
     }
   }

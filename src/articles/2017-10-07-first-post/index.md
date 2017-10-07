@@ -1,6 +1,8 @@
 ---
 path: '/first-post'
 title: 'First Blog Post'
+date: '07/10/2017'
+summary: '07/10/2017'
 ---
 ## Hello
 Thank you for visiting my blog.

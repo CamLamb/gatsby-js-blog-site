@@ -3,35 +3,24 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.scss'
+import '../styles/sierra/src/sierra.scss'
+import '../styles/font-awesome-4.7.0/scss/font-awesome.scss'
+import '../styles/custom.scss'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Jafacakes Developer Blog
-        </Link>
-      </h1>
+    <div className='container'>
+        <section className='section'>
+            <div className='align-center'>
+                <img src='http://sierra-library.github.io/img/logo.png' alt='Cameron Lamb' width='25%' />
+                <h1 className='text-huge text-with-subtitle'>Jafacakes2011 <span className="text-small text-gray">Cameron Lamb</span></h1>
+                <div className='header_buttons'>
+                    <a className='button button-outlined block-mobile' target='_blank' href='https://www.drupal.org/u/jafacakes2011'><i className='fa fa-drupal'></i> Drupal</a>
+                    <a className='button button-outlined block-mobile' target='_blank' href='https://twitter.com/jafacakes2011'><i className='fa fa-twitter'></i> Twitter</a>
+                    <a className='button button-outlined block-mobile' target='_blank' href='https://github.com/jafacakes2011'><i className='fa fa-hand-spock-o'></i> Github</a>
+                </div>
+            </div>
+        </section>
     </div>
-  </div>
 )
 
 const TemplateWrapper = ({ children }) => (
@@ -44,16 +33,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+    {children()}
   </div>
 )
 

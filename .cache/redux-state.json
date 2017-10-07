@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1507397286416,
+      "updatedAt": 1507408431057,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c1172d0c132db5bd53bf3575d4f1b722",
+        "contentDigest": "2582b3abcd192c82e2a0d71d612fa23d",
         "owner": "internal-data-bridge"
       }
     },
@@ -522,7 +522,7 @@
       "resolve": "/Users/cameronlamb/shared/gatsby-js",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "56142f9ca415a83a02b01ddbcaf35609",
+      "version": "5e0f38ee12fd620bf3346d2b64db51f3",
       "pluginOptions": {
         "plugins": []
       },
@@ -576,7 +576,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5e4f05f6636c0e7353d84ef4bbd6c00f",
+        "contentDigest": "8df52ff46057b9e77ec3b4025ceb25d7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -589,12 +589,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-07T17:24:07.744Z",
+      "buildTime": "2017-10-07T20:33:47.777Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3f30e329f1d6416fad785e254e5dafa",
+        "contentDigest": "637e1aa802f266923325f0ca82fc19ce",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -606,7 +606,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e2b7f96fe2c32bef18f55dd65ff2f834",
+        "contentDigest": "2f60c1cce1f0d5bf82e61385c8f73034",
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -615,12 +615,12 @@
       "absolutePath": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md",
       "relativePath": "2017-10-07-first-post/index.md",
       "extension": "md",
-      "size": 253,
-      "prettySize": "253 B",
-      "modifiedTime": "2017-10-07T17:28:05.000Z",
-      "accessTime": "2017-10-07T17:28:06.000Z",
-      "changeTime": "2017-10-07T17:28:05.000Z",
-      "birthTime": "2017-10-07T17:28:05.000Z",
+      "size": 294,
+      "prettySize": "294 B",
+      "modifiedTime": "2017-10-07T20:22:17.000Z",
+      "accessTime": "2017-10-07T20:22:17.000Z",
+      "changeTime": "2017-10-07T20:22:17.000Z",
+      "birthTime": "2017-10-07T20:22:17.000Z",
       "root": "/",
       "dir": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post",
       "base": "index.md",
@@ -633,26 +633,28 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8786736,
+      "ino": 8791215,
       "blocks": 8,
-      "atime": "2017-10-07T17:28:06.000Z",
-      "mtime": "2017-10-07T17:28:05.000Z",
-      "ctime": "2017-10-07T17:28:05.000Z",
-      "birthtime": "2017-10-07T17:28:05.000Z"
+      "atime": "2017-10-07T20:22:17.000Z",
+      "mtime": "2017-10-07T20:22:17.000Z",
+      "ctime": "2017-10-07T20:22:17.000Z",
+      "birthtime": "2017-10-07T20:22:17.000Z"
     },
     "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file >>> MarkdownRemark",
       "children": [],
       "parent": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file",
       "internal": {
-        "content": "---\npath: '/first-post'\ntitle: 'First Blog Post'\n---\n## Hello\nThank you for visiting my blog.\n\n## Code snippets:\nHere is an `inline code snippet` for you to read.\nBelow is a block of php:\n```php\n<?php\n  $var = 'this is a variable.';\n  print $var;\n?>\n```",
-        "contentDigest": "6a4342cc4f15b6d22ea87cdd0449cb43",
+        "content": "---\npath: '/first-post'\ntitle: 'First Blog Post'\ndate: '07/10/2017'\nsummary: '07/10/2017'\n---\n## Hello\nThank you for visiting my blog.\n\n## Code snippets:\nHere is an `inline code snippet` for you to read.\nBelow is a block of php:\n```php\n<?php\n  $var = 'this is a variable.';\n  print $var;\n?>\n```",
+        "contentDigest": "650e75540be8aabe8deff9998be17e3b",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "First Blog Post",
         "path": "/first-post",
+        "date": "07/10/2017",
+        "summary": "07/10/2017",
         "_PARENT": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file",
         "parent": "/Users/cameronlamb/shared/gatsby-js/src/articles/2017-10-07-first-post/index.md absPath of file"
       },
@@ -665,7 +667,7 @@
       "layout": "index",
       "jsonName": "first-post.json",
       "internalComponentName": "ComponentFirstPost",
-      "updatedAt": 1507397286426,
+      "updatedAt": 1507408431089,
       "context": {},
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -675,7 +677,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dac36b66168ce022e3172c056f1f784a",
+        "contentDigest": "c929f1ab7537a58b5ec6d937d873edd2",
         "owner": "internal-data-bridge"
       }
     },
@@ -686,7 +688,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1507397050104,
+      "updatedAt": 1507408431098,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -696,7 +698,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a28efe29b2cc86e52e7fed2c9be8e209",
+        "contentDigest": "2c606ed05f83b4dc4a83516cc0b1fce2",
         "owner": "internal-data-bridge"
       }
     },
@@ -707,7 +709,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507397050105,
+      "updatedAt": 1507408431105,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -717,7 +719,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8a32bb4f7b97e6b93ce607b600a0d0b9",
+        "contentDigest": "ebdca52438468ce956804bb0e0aca304",
         "owner": "internal-data-bridge"
       }
     },
@@ -728,7 +730,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507397050107,
+      "updatedAt": 1507408431108,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -738,14 +740,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c250692cce93b28d3d9587e8a37e11e1",
+        "contentDigest": "6d7f8dbb4bb34cf893f160f003c4d5fc",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "cfd7dd1585fb96873bff7ff16b3d83cc"
+    "PLUGINS_HASH": "b264ced2d3173bab2626fcb01d4ec4a6"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -756,6 +758,9 @@
     "connections": {
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/"
       ]
     }
   }
