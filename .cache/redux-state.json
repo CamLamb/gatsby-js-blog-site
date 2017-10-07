@@ -577,12 +577,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-07T23:38:41.681Z",
+      "buildTime": "2017-10-07T23:43:23.931Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1796e30e2c85171a36be0bec3bd015b5",
+        "contentDigest": "a126cdae6e4ffb75102f59b0950814cc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -655,7 +655,7 @@
       "layout": "index",
       "jsonName": "first-post.json",
       "internalComponentName": "ComponentFirstPost",
-      "updatedAt": 1507419523902,
+      "updatedAt": 1507419806528,
       "context": {},
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -665,7 +665,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d91085ef970b3bfc10489bdc02cfc8bc",
+        "contentDigest": "d9873cccbabd0aca2151662e7f85596c",
         "owner": "internal-data-bridge"
       }
     },
@@ -676,7 +676,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1507419523940,
+      "updatedAt": 1507419806564,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -686,7 +686,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2c22967d4990c4691dde58d8e607a608",
+        "contentDigest": "973b128a178e41791082e55be759785b",
         "owner": "internal-data-bridge"
       }
     },
@@ -697,7 +697,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507419523941,
+      "updatedAt": 1507419806565,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -707,7 +707,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1c343cc7578e965dd4b9572b3968b9ea",
+        "contentDigest": "bbf7b3d6b658a2338b43b0efc480fbcd",
         "owner": "internal-data-bridge"
       }
     },
@@ -718,7 +718,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507419523944,
+      "updatedAt": 1507419806569,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -728,7 +728,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "487908be81aaeb6a43ed8d3ecb0b92a9",
+        "contentDigest": "1cbdcc3357a0640c656a6cf475a0b40d",
         "owner": "internal-data-bridge"
       }
     }
