@@ -11,8 +11,10 @@ const Header = () => (
     <div className='container'>
         <section className='section'>
             <div className='align-center'>
-                <img src='http://sierra-library.github.io/img/logo.png' alt='Cameron Lamb' width='25%' />
-                <h1 className='text-huge text-with-subtitle'>Jafacakes2011 <span className="text-small text-gray">Cameron Lamb</span></h1>
+                <Link to='/'>
+                    <img src='http://sierra-library.github.io/img/logo.png' alt='Cameron Lamb' width='25%' />
+                    <h1 className='text-huge text-with-subtitle text-white'>Jafacakes2011 <span className="text-small text-gray">Cameron Lamb</span></h1>
+                </Link>
                 <div className='header_buttons'>
                     <a className='button button-outlined block-mobile' target='_blank' href='https://www.drupal.org/u/jafacakes2011'><i className='fa fa-drupal'></i> Drupal</a>
                     <a className='button button-outlined block-mobile' target='_blank' href='https://twitter.com/jafacakes2011'><i className='fa fa-twitter'></i> Twitter</a>

@@ -40,7 +40,7 @@ const IndexPage = ({data}) => (
                         <div className='section'>
                             <Link to={post.node.frontmatter.path}>
                                 <div className='col-xs-5 col-sm-3 col-md-2 vcenter'>
-                                    <img className='rounded-corners' src="http://sierra-library.github.io/img/img4.jpg" alt="Image 4" width="100%" />
+                                    <img className='rounded-corners' src={post.node.frontmatter.listingImage} alt="Image 4" width="100%" />
                                 </div>
                                 <div className='col-xs-7 col-sm-9 col-md-10 vcenter'>
                                     <h3 className='text-medium'>{post.node.frontmatter.title}</h3>
@@ -68,6 +68,7 @@ export const pageQuery = graphql`
                         title
                         date
                         summary
+                        listingImage
                     }
                 }
             }

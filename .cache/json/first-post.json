@@ -6,7 +6,8 @@
                 "path": "/first-post",
                 "title": "First Blog Post",
                 "date": "07/10/2017",
-                "summary": "07/10/2017"
+                "summary": "This is a test blog post",
+                "listingImage": "http://sierra-library.github.io/img/img4.jpg"
             }
         }
     },
